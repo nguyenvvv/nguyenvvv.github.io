@@ -1,0 +1,14 @@
+
+h1{
+  color: #E6E6FA;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Hepta Slab', serif; <!-- This has a link in HTML-->
+}
+body {
+  background-color: #FFB6C1;
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+}
