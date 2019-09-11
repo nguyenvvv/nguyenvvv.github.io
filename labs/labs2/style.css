@@ -2,13 +2,24 @@
 h1{
   color: #E6E6FA;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: 'Hepta Slab', serif; <!-- This has a link in HTML-->
+  font-family: 'Hepta Slab', serif; /*-- This has a link in HTML*/
 }
 body {
   background-color: #FFB6C1;
   text-align: center;
 }
-.navbar{
+
+header .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Hepta Slab', serif;
+}
+
+.col-sm-4 li{
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
   display: flex;
   flex-wrap: wrap;
 }
