@@ -3,29 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Cheesy Vases</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--REMEMBER TO ALWAYS LINK THE CSS file to HTML-->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
   </head>
   <body>
-  <h1>Cheesy Vases</h1>
-  <div class="navbar">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-        <ul>
-          <li><a href="#">Mission Statement</a></li>
-        </ul>
-      <li><a href="#">Pricing</a></li>
-        <ul>
-          <li><a href="#">Vases</a></li>
-          <li><a href="#">Cheese</a></li>
-        </ul>
-  </div>
-  <div class="contact">
-    <button type="button" name="button" style="color: red">Contact</button>
-  </div>
+    <header class="container">
+      <div class="row">
+        <h1 class="col-sm-8">Cheesy Vases</h1>
+        <nav class="col-sm-4">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+          <ul>
+            <li><a href="#">Mission Statement</a></li>
+          </ul>
+            <li><a href="#">Pricing</a></li>
+          <ul>
+            <li><a href="#">Vases</a></li>
+            <li><a href="#">Cheese</a></li>
+          </ul>
+      </div>
+      <div class="contact">
+        <button type="button" name="button" style="color: red">Contact</button>
+      </div>
   </body>
 </html>
