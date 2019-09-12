@@ -30,3 +30,7 @@ header p{
 .jumbotron {
   background-color: #FFB6C1
 }
+
+header img{
+  padding: 0px;
+}
