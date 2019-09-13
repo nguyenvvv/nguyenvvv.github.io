@@ -28,7 +28,12 @@ header p{
   margin: 0;
 }
 .jumbotron {
-  background-color: #FFB6C1
+  align-items: center;
+  background-color: #FFB61C
+}
+
+.jumbotron .row {
+  align-items: center;
 }
 
 header img{
