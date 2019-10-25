@@ -2,6 +2,7 @@ $(document).ready(function(){
   $("#introduction").html();
   var trafficLight1 = function(){
     $("img").attr("src", "images/red.png");
+    
   }
   var trafficLight2 = function(){
     $("img").attr("src", "images/green.png");
