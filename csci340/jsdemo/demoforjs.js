@@ -16,7 +16,7 @@ $(document).ready(function(){
     $("#clicker").click(trafficLight1);
   }
 
-  $("#clicker").click(trafficLight1);
+  $("#clicker").click(trafficLight2);
   //$("#clicker").click(trafficLight2);
   //$("#clicker").click(trafficLight3);
 
